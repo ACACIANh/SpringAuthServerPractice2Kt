@@ -128,8 +128,8 @@ class SecurityConfig {
     @Bean
     fun authorizationServerSettings(): AuthorizationServerSettings =
         AuthorizationServerSettings.builder()
+            .authorizationEndpoint("/v1/oauth2/authorize")
             .tokenEndpoint("/v1/oauth2/token")
-            // something else
             .build()
 
     //===

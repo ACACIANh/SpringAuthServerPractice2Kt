@@ -10,3 +10,5 @@
 
 
 * 참고 https://tech.kakaopay.com/post/spring-oauth2-authorization-server-practice/
+  https://www.baeldung.com/spring-security-oauth-auth-server
+  https://www.baeldung.com/spring-security-oauth-resource-server
